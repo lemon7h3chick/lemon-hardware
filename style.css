@@ -156,6 +156,10 @@ figcaption {
   gap: 0.25rem;
 }
 
+.cta-banner p {
+  font-size: 18px;
+}
+
 .cta-banner button {
   border: #e5e7eb 2px solid;
 }
