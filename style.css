@@ -132,3 +132,30 @@ figcaption {
   color: #1f2937;
   align-self: flex-end;
 }
+
+.cta-banner {
+  height: 46vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15%;
+}
+
+.wrapper {
+  padding: 4% 10%;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  background-color: #3882f6;
+}
+
+.cta-banner .container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.cta-banner button {
+  border: #e5e7eb 2px solid;
+}
