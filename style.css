@@ -68,3 +68,38 @@ button {
   border: none;
   border-radius: 0.5rem;
 }
+
+.more-info {
+  height: 46vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.more-info h2 {
+  font-weight: 900;
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.card {
+  width: 200px;
+}
+
+.more-info .container {
+  gap: 3rem;
+}
+
+.card img {
+  border: #3882f6 0.25rem solid;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #1f2937;
+  font-size: 18px;
+  text-align: center;
+}
